@@ -1,0 +1,49 @@
+/* Styles for header and navigation */
+header {
+    background-color: #942c00;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Styles for products */
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.product {
+    border: 1px solid #942c00;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Styles for footer */
+footer {
+    background-color: #942c00;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+}
+img {
+    width: 75px;
+}
